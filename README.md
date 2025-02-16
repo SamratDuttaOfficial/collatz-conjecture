@@ -19,8 +19,8 @@ Anything bigger than 32 will consume a humongous amount of memory and disk space
 Run the collatz conjecture verification:
 
 ```
-g++ main.cpp -o main # compile the program
-main.exe # run it
+g++ verify-collatz.cpp -o verify-collatz # compile the program
+verify-collatz.exe # run it
 ```
 
 Edit the `MAX_POW_TEN` parameter in the C++ program to determine how many numbers to check in a single core of your CPU in a single run. The program will check `10^(MAX_POW_TEN)` numbers in a single core.
